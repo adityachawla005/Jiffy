@@ -1,0 +1,11 @@
+﻿<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>{FILE_PATH}</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>explorer.exe {FILENAME}</Command>
+  </LogonCommand>
+</Configuration>
